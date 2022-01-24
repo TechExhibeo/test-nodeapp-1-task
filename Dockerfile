@@ -1,4 +1,4 @@
-# Dockefile for nodejs application using alpine base
+# Dockerfile for nodejs application using alpine base
 FROM node:12-alpine
 WORKDIR /app
 COPY package*.json ./
